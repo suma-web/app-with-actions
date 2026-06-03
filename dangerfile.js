@@ -1,4 +1,4 @@
-const { warn, danger } = require("danger");
+import { warn, danger } from "danger";
 
 const changedLines =
   danger.github.pr.additions +
