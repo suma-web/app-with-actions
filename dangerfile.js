@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const { warn, danger } = require("danger");
 
 const changedLines =
