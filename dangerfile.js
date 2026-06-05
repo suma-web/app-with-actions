@@ -1,5 +1,4 @@
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-const { warn, danger } = require("danger");
+import { warn, danger } from "danger";
 
 const changedLines =
   danger.github.pr.additions +
